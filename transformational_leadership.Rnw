@@ -77,7 +77,7 @@ This paper contributes to the understanding of the effects of transformational l
 %\setcounter{page}{1} % start with arabic pagenumber 1 
 \urlstyle{same} % same font for the url's in the references as the normal text
 <<setup, include=FALSE>>=
-opts_chunk$set(fig.path='figure/beamer-', fig.align='center', fig.show='hold', size='footnotesize', dev='tikz', cache=F, cache.path='cache/')
+opts_chunk$set(fig.path='figure/beamer-', fig.align='center', fig.show='hold', size='footnotesize', dev='tikz', cache=T, cache.path='cache/')
 @
 <<setup2, echo=FALSE,results='hide'>>=
 # some setup
