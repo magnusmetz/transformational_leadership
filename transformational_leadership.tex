@@ -63,6 +63,11 @@
     headsepline, % put a line under the heading  
 ]{scrpage2}
 \usepackage{tikz}
+\usepackage{booktabs} % needed for table
+\usepackage{multirow} % used for tables
+\usepackage{tabularx}
+%\usepackage{eurosym}
+\usepackage[bf, nooneline, footnotesize]{caption} % define caption style
 \usepackage{pdflscape} % to be able to turn pages 90°
 \usepackage{subfig}
 \usepackage[paper=a4paper,top=20mm,bottom=30mm,left=30mm,right=20mm,footskip=10mm]{geometry} % defining text boarders to define geometry of the article according to dvs-standards
@@ -390,23 +395,20 @@ Figure \ref{fig:gender} shows the gender distribution of the two samples. Figure
 
 
 \begin{table}[htb]
+\caption{Moments of the distribution}
 \centering
-\begin{tabular}{lcc}
-\hline
+\begin{tabularx}{\textwidth}{XXX}
+\toprule
   & neutral group & positive group\\ 
-\hline 
+\midrule
 \(\mu\) & 62.3 & 67.05 \\ 
 \(\sigma^{2}\) & 297.27 & 237.21 \\ 
 \(\sigma\) & 17.24 & 15.4 \\ 
-\hline 
-\end{tabular} 
-\caption{Moments of the distribution}
+\bottomrule
+\end{tabularx} 
 \label{moments_dist}
+
 \end{table}
-
-
-
-
 
 
 

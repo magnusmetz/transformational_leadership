@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.12.12)  23 FEB 2014 12:35
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.12.12)  23 FEB 2014 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,14 +833,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
  17978 strings out of 495007
- 318578 string characters out of 3179689
+ 318579 string characters out of 3179689
  418007 words of memory out of 3000000
  20872 multiletter control sequences out of 15000+200000
  4240 words of font info for 16 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,7n,71p,407b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb>
-Output written on beamer-boxplots1.pdf (1 page, 8535 bytes).
+Output written on beamer-boxplots1.pdf (1 page, 8533 bytes).
 PDF statistics:
  16 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
