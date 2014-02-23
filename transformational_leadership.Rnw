@@ -212,7 +212,7 @@ It was used an independent groups 1-factor design with PE representing the indep
 
 \section*{Results}
 \paragraph{Analysis}
-All computations and graphics were done using the \sf{R} software package for statistical computing (see \url{http://www.R-project.ort}) \cite{Gandrud2013}.
+All computations and graphics were done using the \sf{R} software package for statistical computing (see \url{http://www.R-project.org}) \cite{Gandrud2013}.
 
 \paragraph{Distribution}
 The distribution of the data representing the task performance results of figure \ref{fig:boxplots1} are shown in figure \ref{fig:density} for both, the positive and the neutral group in a density plot. %Furthermore normal Q-Q plots show the distribution for each single group in figure \ref{fig:qqplot_neut} and figure \ref{fig:qqplot_pos}. 
