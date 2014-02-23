@@ -1,0 +1,248 @@
+% Created by tikzDevice version 0.7.0 on 2014-02-23 12:35:06
+% !TEX encoding = UTF-8 Unicode
+\documentclass[	
+	12pt, % defining font size
+	a4paper, % defining paper size
+  abstracton
+]{scrartcl}
+\nonstopmode
+
+\usepackage{tikz}
+
+\usepackage[active,tightpage,psfixbb]{preview}
+
+\PreviewEnvironment{pgfpicture}
+
+\setlength\PreviewBorder{0pt}
+
+\newcommand{\SweaveOpts}[1]{}  % do not interfere with LaTeX
+\newcommand{\SweaveInput}[1]{} % because they are not real TeX commands
+\newcommand{\Sexpr}[1]{}       % will only be parsed by R
+
+
+
+%----------------------------------------------------------------------
+% INCLUDE PACKAGES:
+
+\usepackage{graphicx} % needed to able to include graphics
+\usepackage{cmbright} % for a clone of Helvetica font
+\usepackage[
+    automark, % put sectionname into heading
+    headsepline, % put a line under the heading  
+]{scrpage2}
+\usepackage{tikz}
+\usepackage{pdflscape} % to be able to turn pages 90°
+\usepackage{subfig}
+\usepackage[paper=a4paper,top=20mm,bottom=30mm,left=30mm,right=20mm,footskip=10mm]{geometry} % defining text boarders to define geometry of the article according to dvs-standards
+\usepackage{import} % to be able to use the \import command (use in combination of svg graphics produced mainly with inkscape)
+\usepackage{pdfpages}
+\usepackage{todonotes}
+\usepackage{url} % url package needed to define url look at references
+\usepackage[colorlinks=true,citecolor=blue,urlcolor=blue, linkcolor=black]{hyperref} % create the links in the document
+\usepackage{apacite} % citation package
+
+%----------------------------------------------------------------------
+% DOCUMENT DEFINITIONS:
+
+\pagestyle{scrheadings} % create heading
+\renewcommand*\familydefault{\sfdefault} %for a clone of Helvetica font
+\newcommand*\mytitle{The Effect of Transformational Leadership Behaviour on Follower Task Performance of Volunteers in German Non-Profit Sport Clubs} % define title
+\ihead{\mytitle} % show title in header and align it to the left
+\chead{} % no title in centered part of header
+\linespread{1.5} % define linespread
+\title{\mytitle}
+\subtitle{Final paper}
+\author{
+        Niklas Boedts, Bernardo Fiorini, Magnus Metz\\
+        Institute of Sport Economics and Sport Management\\
+        German Sport University Cologne\\
+        }
+\date{\today}
+
+%---------------------------------------------------------------------
+% BEGINNING OF DOCUMENT:
+
+\begin{document}
+
+\begin{tikzpicture}[x=1pt,y=1pt]
+\definecolor[named]{fillColor}{rgb}{1.00,1.00,1.00}
+\path[use as bounding box,fill=fillColor,fill opacity=0.00] (0,0) rectangle (1156.32,650.43);
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (1156.32,650.43);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] ( 93.94, 60.00) rectangle (118.29,323.35);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (118.29, 60.00) rectangle (142.64,354.54);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (166.99, 60.00) rectangle (191.35,346.13);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (191.35, 60.00) rectangle (215.70,407.97);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (240.05, 60.00) rectangle (264.40,409.87);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (264.40, 60.00) rectangle (288.76,434.55);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (313.11, 60.00) rectangle (337.46,418.55);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (337.46, 60.00) rectangle (361.81,423.70);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (386.17, 60.00) rectangle (410.52,404.99);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (410.52, 60.00) rectangle (434.87,435.90);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (459.22, 60.00) rectangle (483.57,406.88);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (483.57, 60.00) rectangle (507.93,444.58);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (532.28, 60.00) rectangle (556.63,389.26);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (556.63, 60.00) rectangle (580.98,430.48);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (605.34, 60.00) rectangle (629.69,415.02);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (629.69, 60.00) rectangle (654.04,433.73);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (678.39, 60.00) rectangle (702.75,392.51);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (702.75, 60.00) rectangle (727.10,436.45);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (751.45, 60.00) rectangle (775.80,395.76);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (775.80, 60.00) rectangle (800.15,423.43);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (824.51, 60.00) rectangle (848.86,410.95);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (848.86, 60.00) rectangle (873.21,441.87);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (897.56, 60.00) rectangle (921.92,417.46);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (921.92, 60.00) rectangle (946.27,435.09);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (970.62, 60.00) rectangle (994.97,409.87);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (994.97, 60.00) rectangle (1019.33,416.38);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (1043.68, 60.00) rectangle (1068.03,421.26);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (1068.03, 60.00) rectangle (1092.38,418.28);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (1156.32,650.43);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (118.29, 38.40) {1};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (191.35, 38.40) {2};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (264.40, 38.40) {3};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (337.46, 38.40) {4};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (410.52, 38.40) {5};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (483.57, 38.40) {6};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (556.63, 38.40) {7};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (629.69, 38.40) {8};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (702.75, 38.40) {9};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (775.80, 38.40) {10};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (848.86, 38.40) {11};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (921.92, 38.40) {12};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (994.97, 38.40) {13};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (1068.03, 38.40) {14};
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (1156.32,650.43);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (593.16,618.93) {\bfseries Completion per sequence};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at (593.16, 14.40) {Sequence in d2 test};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at ( 15.60,331.21) {Percent};
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (1156.32,650.43);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 54.00, 60.00) -- ( 54.00,602.43);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 54.00, 60.00) -- ( 48.00, 60.00);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 54.00,168.49) -- ( 48.00,168.49);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 54.00,276.97) -- ( 48.00,276.97);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 54.00,385.46) -- ( 48.00,385.46);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 54.00,493.94) -- ( 48.00,493.94);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 54.00,602.43) -- ( 48.00,602.43);
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at ( 39.60, 60.00) {0};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at ( 39.60,168.49) {20};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at ( 39.60,276.97) {40};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at ( 39.60,385.46) {60};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at ( 39.60,493.94) {80};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.80] at ( 39.60,602.43) {100};
+\end{scope}
+\begin{scope}
+\path[clip] ( 54.00, 60.00) rectangle (1132.32,602.43);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (1040.75,602.43) rectangle (1132.32,548.19);
+\definecolor[named]{fillColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (1053.95,588.87) rectangle (1064.52,579.83);
+\definecolor[named]{fillColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (1053.95,570.79) rectangle (1064.52,561.75);
+
+\node[text=drawColor,anchor=base west,inner sep=0pt, outer sep=0pt, scale=  1.44] at (1077.72,578.35) {neutral};
+
+\node[text=drawColor,anchor=base west,inner sep=0pt, outer sep=0pt, scale=  1.44] at (1077.72,560.27) {positive};
+\end{scope}
+\end{tikzpicture}
+
+\end{document}

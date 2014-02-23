@@ -1,0 +1,182 @@
+% Created by tikzDevice version 0.6.2-92-0ad2792 on 2013-06-14 21:23:13
+% !TEX encoding = UTF-8 Unicode
+\documentclass[	
+	12pt, % defining font size
+	a4paper, % defining paper size
+]{scrartcl}
+\nonstopmode
+
+\usepackage{tikz}
+
+\usepackage[active,tightpage,psfixbb]{preview}
+
+\PreviewEnvironment{pgfpicture}
+
+\setlength\PreviewBorder{0pt}
+
+\newcommand{\SweaveOpts}[1]{}  % do not interfere with LaTeX
+\newcommand{\SweaveInput}[1]{} % because they are not real TeX commands
+\newcommand{\Sexpr}[1]{}       % will only be parsed by R
+
+
+
+%----------------------------------------------------------------------
+% INCLUDE PACKAGES:
+
+\usepackage{graphicx} % needed to able to include graphics
+\usepackage{cmbright} % for a clone of Helvetica font
+\usepackage[
+    automark, % put sectionname into heading
+    headsepline, % put a line under the heading  
+]{scrpage2}
+\usepackage{tikz}
+\usepackage{subfig}
+%\usepackage[paper=a4paper,top=20mm,bottom=30mm,left=20mm,right=30mm,footskip=10mm]{geometry} % defining text boarders to define geometry of the article according to dvs-standards
+\usepackage{import} % to be able to use the \import command (use in combination of svg graphics produced mainly with inkscape)
+\usepackage{url} % url package needed to define url look at references
+\usepackage[colorlinks=true,citecolor=blue,urlcolor=blue, linkcolor=black]{hyperref} % create the links in the document
+\usepackage{apacite} % citation package
+
+%----------------------------------------------------------------------
+% DOCUMENT DEFINITIONS:
+
+\pagestyle{scrheadings} % create heading
+\renewcommand*\familydefault{\sfdefault} %for a clone of Helvetica font
+\newcommand*\mytitle{The Effect of Transformational Leadership Behaviour on Follower Task Performance of Volunteers in German Non-Profit Sport Clubs} % define title
+\ihead{\mytitle} % show title in header and align it to the left
+\chead{} % no title in centered part of header
+\linespread{1.5} % define linespread
+\title{\mytitle}
+\subtitle{Final paper}
+\author{
+        Niklas Boedts, Bernardo Fiorini, Magnus Metz\\
+        Institute of Sport Economics and Sport Management\\
+        German Sport University Cologne\\
+        }
+\date{\today}
+
+%---------------------------------------------------------------------
+% BEGINNING OF DOCUMENT:
+
+\begin{document}
+
+\begin{tikzpicture}[x=1pt,y=1pt]
+\definecolor[named]{fillColor}{rgb}{1.00,1.00,1.00}
+\path[use as bounding box,fill=fillColor,fill opacity=0.00] (0,0) rectangle (867.24,397.48);
+\begin{scope}
+\path[clip] ( 72.00, 72.00) rectangle (838.44,339.88);
+\definecolor[named]{drawColor}{rgb}{0.00,0.33,0.64}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (715.83,315.65) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (347.00,210.71) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (624.42,296.57) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (512.91,282.26) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (663.48,296.57) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (194.61,110.54) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (420.98,244.10) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (810.05,329.96) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (318.46,163.01) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (100.39, 81.92) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (537.37,282.26) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (466.57,277.49) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (591.98,287.03) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (246.96,115.31) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (286.02,153.47) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (489.46,277.49) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (563.44,282.26) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (443.87,248.87) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (373.07,215.48) circle (  5.40);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (397.53,225.02) circle (  5.40);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (867.24,397.48);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 93.14, 72.00) -- (817.30, 72.00);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 93.14, 72.00) -- ( 93.14, 64.80);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (274.18, 72.00) -- (274.18, 64.80);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (455.22, 72.00) -- (455.22, 64.80);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (636.26, 72.00) -- (636.26, 64.80);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (817.30, 72.00) -- (817.30, 64.80);
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 93.14, 46.08) {-2};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (274.18, 46.08) {-1};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (455.22, 46.08) {0};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (636.26, 46.08) {1};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (817.30, 46.08) {2};
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,105.77) -- ( 72.00,296.57);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,105.77) -- ( 64.80,105.77);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,153.47) -- ( 64.80,153.47);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,201.17) -- ( 64.80,201.17);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,248.87) -- ( 64.80,248.87);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,296.57) -- ( 64.80,296.57);
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 54.72,105.77) {40};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 54.72,153.47) {50};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 54.72,201.17) {60};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 54.72,248.87) {70};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 54.72,296.57) {80};
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00, 72.00) --
+	(838.44, 72.00) --
+	(838.44,339.88) --
+	( 72.00,339.88) --
+	( 72.00, 72.00);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (867.24,397.48);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (455.22,360.35) {\bfseries Normal Q-Q Plot of the positive group};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (455.22, 17.28) {Theoretical Quantiles};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 25.92,205.94) {Sample Quantiles};
+\end{scope}
+\begin{scope}
+\path[clip] ( 72.00, 72.00) rectangle (838.44,339.88);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,108.26) -- (838.44,373.98);
+\end{scope}
+\end{tikzpicture}
+
+\end{document}

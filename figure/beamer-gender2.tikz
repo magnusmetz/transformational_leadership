@@ -1,0 +1,308 @@
+% Created by tikzDevice version 0.7.0 on 2014-02-23 12:34:50
+% !TEX encoding = UTF-8 Unicode
+\documentclass[	
+	12pt, % defining font size
+	a4paper, % defining paper size
+  abstracton
+]{scrartcl}
+\nonstopmode
+
+\usepackage{tikz}
+
+\usepackage[active,tightpage,psfixbb]{preview}
+
+\PreviewEnvironment{pgfpicture}
+
+\setlength\PreviewBorder{0pt}
+
+\newcommand{\SweaveOpts}[1]{}  % do not interfere with LaTeX
+\newcommand{\SweaveInput}[1]{} % because they are not real TeX commands
+\newcommand{\Sexpr}[1]{}       % will only be parsed by R
+
+
+
+%----------------------------------------------------------------------
+% INCLUDE PACKAGES:
+
+\usepackage{graphicx} % needed to able to include graphics
+\usepackage{cmbright} % for a clone of Helvetica font
+\usepackage[
+    automark, % put sectionname into heading
+    headsepline, % put a line under the heading  
+]{scrpage2}
+\usepackage{tikz}
+\usepackage{pdflscape} % to be able to turn pages 90°
+\usepackage{subfig}
+\usepackage[paper=a4paper,top=20mm,bottom=30mm,left=30mm,right=20mm,footskip=10mm]{geometry} % defining text boarders to define geometry of the article according to dvs-standards
+\usepackage{import} % to be able to use the \import command (use in combination of svg graphics produced mainly with inkscape)
+\usepackage{pdfpages}
+\usepackage{todonotes}
+\usepackage{url} % url package needed to define url look at references
+\usepackage[colorlinks=true,citecolor=blue,urlcolor=blue, linkcolor=black]{hyperref} % create the links in the document
+\usepackage{apacite} % citation package
+
+%----------------------------------------------------------------------
+% DOCUMENT DEFINITIONS:
+
+\pagestyle{scrheadings} % create heading
+\renewcommand*\familydefault{\sfdefault} %for a clone of Helvetica font
+\newcommand*\mytitle{The Effect of Transformational Leadership Behaviour on Follower Task Performance of Volunteers in German Non-Profit Sport Clubs} % define title
+\ihead{\mytitle} % show title in header and align it to the left
+\chead{} % no title in centered part of header
+\linespread{1.5} % define linespread
+\title{\mytitle}
+\subtitle{Final paper}
+\author{
+        Niklas Boedts, Bernardo Fiorini, Magnus Metz\\
+        Institute of Sport Economics and Sport Management\\
+        German Sport University Cologne\\
+        }
+\date{\today}
+
+%---------------------------------------------------------------------
+% BEGINNING OF DOCUMENT:
+
+\begin{document}
+
+\begin{tikzpicture}[x=1pt,y=1pt]
+\definecolor[named]{fillColor}{rgb}{1.00,1.00,1.00}
+\path[use as bounding box,fill=fillColor,fill opacity=0.00] (0,0) rectangle (289.08,289.08);
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (289.08,253.08);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+\definecolor[named]{fillColor}{rgb}{1.00,1.00,1.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (235.55,126.54) --
+	(235.50,129.42) --
+	(235.36,132.30) --
+	(235.14,135.17) --
+	(234.82,138.03) --
+	(234.41,140.89) --
+	(233.91,143.72) --
+	(233.32,146.54) --
+	(232.64,149.34) --
+	(231.88,152.12) --
+	(231.02,154.87) --
+	(230.08,157.60) --
+	(229.06,160.29) --
+	(227.95,162.95) --
+	(226.75,165.57) --
+	(225.48,168.15) --
+	(224.12,170.69) --
+	(222.68,173.19) --
+	(221.16,175.64) --
+	(219.57,178.04) --
+	(217.90,180.39) --
+	(216.16,182.69) --
+	(214.35,184.92) --
+	(212.47,187.11) --
+	(210.52,189.23) --
+	(208.50,191.28) --
+	(206.42,193.27) --
+	(204.27,195.20) --
+	(202.07,197.06) --
+	(199.81,198.84) --
+	(197.49,200.55) --
+	(195.12,202.19) --
+	(192.70,203.76) --
+	(190.24,205.24) --
+	(187.72,206.65) --
+	(185.16,207.98) --
+	(182.57,209.22) --
+	(179.93,210.38) --
+	(177.26,211.46) --
+	(174.55,212.46) --
+	(171.82,213.36) --
+	(169.06,214.18) --
+	(166.27,214.91) --
+	(163.46,215.56) --
+	(160.63,216.11) --
+	(157.79,216.58) --
+	(154.93,216.95) --
+	(152.07,217.23) --
+	(149.19,217.43) --
+	(146.31,217.53) --
+	(143.43,217.54) --
+	(140.55,217.46) --
+	(137.68,217.29) --
+	(134.81,217.02) --
+	(131.95,216.67) --
+	(129.10,216.23) --
+	(126.27,215.69) --
+	(123.46,215.07) --
+	(120.66,214.36) --
+	(117.90,213.56) --
+	(115.16,212.67) --
+	(112.44,211.70) --
+	(109.76,210.64) --
+	(107.12,209.50) --
+	(104.51,208.27) --
+	(101.95,206.96) --
+	( 99.42,205.57) --
+	( 96.94,204.11) --
+	( 94.51,202.56) --
+	( 92.13,200.94) --
+	( 89.80,199.24) --
+	( 87.53,197.47) --
+	( 85.31,195.63) --
+	( 83.15,193.72) --
+	( 81.06,191.75) --
+	( 79.02,189.71) --
+	( 77.06,187.60) --
+	( 75.16,185.43) --
+	( 73.33,183.21) --
+	( 71.57,180.92) --
+	( 69.89,178.59) --
+	( 68.28,176.20) --
+	( 66.74,173.76) --
+	( 65.29,171.27) --
+	( 63.91,168.74) --
+	( 62.61,166.17) --
+	( 61.40,163.56) --
+	( 60.27,160.91) --
+	( 59.23,158.22) --
+	( 58.27,155.50) --
+	( 57.39,152.76) --
+	( 56.61,149.99) --
+	( 55.91,147.19) --
+	( 55.30,144.38) --
+	( 54.78,141.54) --
+	( 54.35,138.69) --
+	( 54.01,135.83) --
+	( 53.76,132.96) --
+	( 53.60,130.09) --
+	( 53.54,127.20) --
+	( 53.56,124.32) --
+	( 53.68,121.45) --
+	( 53.88,118.57) --
+	( 54.18,115.71) --
+	( 54.57,112.85) --
+	( 55.05,110.01) --
+	( 55.62,107.19) --
+	( 56.27,104.38) --
+	( 57.02,101.60) --
+	( 57.85, 98.84) --
+	( 58.77, 96.11) --
+	( 59.78, 93.41) --
+	( 60.87, 90.74) --
+	( 62.04, 88.11) --
+	( 63.30, 85.52) --
+	( 64.64, 82.97) --
+	( 66.06, 80.46) --
+	( 67.56, 78.00) --
+	( 69.13, 75.59) --
+	( 70.78, 73.23) --
+	( 72.51, 70.92) --
+	( 74.31, 68.67) --
+	( 76.17, 66.47) --
+	( 78.11, 64.34) --
+	( 80.11, 62.27) --
+	( 82.18, 60.26) --
+	( 84.31, 58.32) --
+	( 86.50, 56.45) --
+	( 88.74, 54.64) --
+	( 91.05, 52.91) --
+	(144.54,126.54) --
+	cycle;
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (103.22,207.63) --
+	(101.16,211.68);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (289.08,289.08);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+
+\node[text=drawColor,anchor=base east,inner sep=0pt, outer sep=0pt, scale=  1.80] at ( 99.09,208.24) {male};
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (289.08,253.08);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+\definecolor[named]{fillColor}{rgb}{0.00,0.00,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] ( 91.05, 52.91) --
+	( 93.42, 51.25) --
+	( 95.85, 49.66) --
+	( 98.32, 48.14) --
+	(100.84, 46.71) --
+	(103.41, 45.36) --
+	(106.02, 44.09) --
+	(108.66, 42.90) --
+	(111.35, 41.80) --
+	(114.06, 40.79) --
+	(116.81, 39.86) --
+	(119.59, 39.02) --
+	(122.39, 38.27) --
+	(125.21, 37.61) --
+	(128.06, 37.04) --
+	(130.92, 36.56) --
+	(133.79, 36.17) --
+	(136.68, 35.87) --
+	(139.57, 35.67) --
+	(142.47, 35.56) --
+	(145.37, 35.54) --
+	(148.27, 35.61) --
+	(151.16, 35.77) --
+	(154.05, 36.03) --
+	(156.93, 36.38) --
+	(159.80, 36.82) --
+	(162.65, 37.35) --
+	(165.48, 37.98) --
+	(168.29, 38.69) --
+	(171.08, 39.49) --
+	(173.84, 40.38) --
+	(176.57, 41.36) --
+	(179.27, 42.42) --
+	(181.93, 43.57) --
+	(184.56, 44.80) --
+	(187.14, 46.12) --
+	(189.68, 47.52) --
+	(192.18, 49.00) --
+	(194.63, 50.56) --
+	(197.02, 52.19) --
+	(199.36, 53.90) --
+	(201.65, 55.68) --
+	(203.88, 57.54) --
+	(206.05, 59.47) --
+	(208.15, 61.46) --
+	(210.20, 63.52) --
+	(212.17, 65.64) --
+	(214.08, 67.83) --
+	(215.91, 70.08) --
+	(217.68, 72.38) --
+	(219.36, 74.74) --
+	(220.98, 77.15) --
+	(222.51, 79.61) --
+	(223.97, 82.12) --
+	(225.34, 84.67) --
+	(226.64, 87.27) --
+	(227.85, 89.90) --
+	(228.97, 92.58) --
+	(230.01, 95.28) --
+	(230.96, 98.02) --
+	(231.83,100.79) --
+	(232.60,103.59) --
+	(233.29,106.40) --
+	(233.89,109.24) --
+	(234.39,112.10) --
+	(234.81,114.97) --
+	(235.13,117.85) --
+	(235.36,120.74) --
+	(235.50,123.64) --
+	(235.55,126.54) --
+	(144.54,126.54) --
+	cycle;
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (185.86, 45.45) --
+	(187.92, 41.40);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (289.08,289.08);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+
+\node[text=drawColor,anchor=base west,inner sep=0pt, outer sep=0pt, scale=  1.80] at (189.99, 29.84) {female};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.44] at (144.54,265.08) {\bfseries Positive group};
+\end{scope}
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,15 @@
+transformational_leadership
+============
+This is the final paper for our psychological study at the German Sport University Cologne.
+
+## Advice
+The primary file is the transformational_leadership.Rnw file. This file needs to be compiled using [knitr](http://yihui.name/knitr/ "go to knitr homepage"). An installed R and LaTeX environment are required. We recommend RStudio as a graphical interface to work with the file.
+
+## Session info
+The project was compiled with following R session:
+
+```{r}
+sessionInfo()
+```
+
+

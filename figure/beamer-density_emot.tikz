@@ -1,0 +1,496 @@
+% Created by tikzDevice version 0.6.2-92-0ad2792 on 2013-09-30 18:55:53
+% !TEX encoding = UTF-8 Unicode
+\documentclass[	
+	12pt, % defining font size
+	a4paper, % defining paper size
+  abstracton
+]{scrartcl}
+\nonstopmode
+
+\usepackage{tikz}
+
+\usepackage[active,tightpage,psfixbb]{preview}
+
+\PreviewEnvironment{pgfpicture}
+
+\setlength\PreviewBorder{0pt}
+
+\newcommand{\SweaveOpts}[1]{}  % do not interfere with LaTeX
+\newcommand{\SweaveInput}[1]{} % because they are not real TeX commands
+\newcommand{\Sexpr}[1]{}       % will only be parsed by R
+
+
+
+%----------------------------------------------------------------------
+% INCLUDE PACKAGES:
+
+\usepackage{graphicx} % needed to able to include graphics
+\usepackage{cmbright} % for a clone of Helvetica font
+\usepackage[
+    automark, % put sectionname into heading
+    headsepline, % put a line under the heading  
+]{scrpage2}
+\usepackage{tikz}
+\usepackage{pdflscape} % to be able to turn pages 90°
+\usepackage{subfig}
+\usepackage[paper=a4paper,top=20mm,bottom=30mm,left=30mm,right=20mm,footskip=10mm]{geometry} % defining text boarders to define geometry of the article according to dvs-standards
+\usepackage{import} % to be able to use the \import command (use in combination of svg graphics produced mainly with inkscape)
+\usepackage{pdfpages}
+\usepackage{todonotes}
+\usepackage{url} % url package needed to define url look at references
+\usepackage[colorlinks=true,citecolor=blue,urlcolor=blue, linkcolor=black]{hyperref} % create the links in the document
+\usepackage{apacite} % citation package
+
+%----------------------------------------------------------------------
+% DOCUMENT DEFINITIONS:
+
+\pagestyle{scrheadings} % create heading
+\renewcommand*\familydefault{\sfdefault} %for a clone of Helvetica font
+\newcommand*\mytitle{The Effect of Transformational Leadership Behaviour on Follower Task Performance of Volunteers in German Non-Profit Sport Clubs} % define title
+\ihead{\mytitle} % show title in header and align it to the left
+\chead{} % no title in centered part of header
+\linespread{1.5} % define linespread
+\title{\mytitle}
+\subtitle{Final paper}
+\author{
+        Niklas Boedts, Bernardo Fiorini, Magnus Metz\\
+        Institute of Sport Economics and Sport Management\\
+        German Sport University Cologne\\
+        }
+\date{\today}
+
+%---------------------------------------------------------------------
+% BEGINNING OF DOCUMENT:
+
+\begin{document}
+
+\begin{tikzpicture}[x=1pt,y=1pt]
+\definecolor[named]{fillColor}{rgb}{1.00,1.00,1.00}
+\path[use as bounding box,fill=fillColor,fill opacity=0.00] (0,0) rectangle (1156.32,650.43);
+\begin{scope}
+\path[clip] ( 72.00, 72.00) rectangle (1127.52,592.83);
+\definecolor[named]{drawColor}{rgb}{1.00,0.62,0.00}
+
+\path[draw=drawColor,line width= 4.0pt,line join=round,line cap=round] (111.09, 96.84) --
+	(113.01, 97.30) --
+	(114.92, 97.78) --
+	(116.83, 98.31) --
+	(118.74, 98.87) --
+	(120.66, 99.48) --
+	(122.57,100.13) --
+	(124.48,100.82) --
+	(126.39,101.57) --
+	(128.31,102.36) --
+	(130.22,103.21) --
+	(132.13,104.12) --
+	(134.04,105.08) --
+	(135.96,106.12) --
+	(137.87,107.22) --
+	(139.78,108.38) --
+	(141.69,109.64) --
+	(143.61,110.96) --
+	(145.52,112.37) --
+	(147.43,113.87) --
+	(149.35,115.43) --
+	(151.26,117.15) --
+	(153.17,118.93) --
+	(155.08,120.82) --
+	(157.00,122.84) --
+	(158.91,124.93) --
+	(160.82,127.20) --
+	(162.73,129.58) --
+	(164.65,132.06) --
+	(166.56,134.73) --
+	(168.47,137.50) --
+	(170.38,140.45) --
+	(172.30,143.55) --
+	(174.21,146.77) --
+	(176.12,150.24) --
+	(178.03,153.83) --
+	(179.95,157.61) --
+	(181.86,161.61) --
+	(183.77,165.73) --
+	(185.68,170.15) --
+	(187.60,174.72) --
+	(189.51,179.48) --
+	(191.42,184.55) --
+	(193.33,189.75) --
+	(195.25,195.26) --
+	(197.16,200.99) --
+	(199.07,206.90) --
+	(200.99,213.20) --
+	(202.90,219.65) --
+	(204.81,226.42) --
+	(206.72,233.48) --
+	(208.64,240.71) --
+	(210.55,248.39) --
+	(212.46,256.26) --
+	(214.37,264.42) --
+	(216.29,272.97) --
+	(218.20,281.70) --
+	(220.11,290.86) --
+	(222.02,300.30) --
+	(223.94,309.99) --
+	(225.85,320.14) --
+	(227.76,330.50) --
+	(229.67,341.26) --
+	(231.59,352.36) --
+	(233.50,363.66) --
+	(235.41,375.52) --
+	(237.32,387.58) --
+	(239.24,399.99) --
+	(241.15,412.81) --
+	(243.06,425.83) --
+	(244.97,439.35) --
+	(246.89,453.13) --
+	(248.80,467.20) --
+	(250.71,481.73) --
+	(252.62,496.45) --
+	(254.54,511.59) --
+	(256.45,527.04) --
+	(258.36,542.70) --
+	(260.28,558.84) --
+	(262.19,575.17) --
+	(264.10,591.81) --
+	(266.01,608.79) --
+	(267.93,625.93) --
+	(269.84,643.48) --
+	(270.59,650.43);
+
+\path[draw=drawColor,line width= 4.0pt,line join=round,line cap=round] (547.01,650.43) --
+	(547.16,649.87) --
+	(549.08,642.96) --
+	(550.99,636.29) --
+	(552.90,629.93) --
+	(554.81,623.71) --
+	(556.73,617.84) --
+	(558.64,612.16) --
+	(560.55,606.67) --
+	(562.46,601.52) --
+	(564.38,596.49) --
+	(566.29,591.75) --
+	(568.20,587.23) --
+	(570.11,582.85) --
+	(572.03,578.81) --
+	(573.94,574.90) --
+	(575.85,571.21) --
+	(577.77,567.75) --
+	(579.68,564.42) --
+	(581.59,561.38) --
+	(583.50,558.48) --
+	(585.42,555.75) --
+	(587.33,553.26) --
+	(589.24,550.88) --
+	(591.15,548.74) --
+	(593.07,546.75) --
+	(594.98,544.88) --
+	(596.89,543.26) --
+	(598.80,541.74) --
+	(600.72,540.40) --
+	(602.63,539.22) --
+	(604.54,538.13) --
+	(606.45,537.27) --
+	(608.37,536.50) --
+	(610.28,535.86) --
+	(612.19,535.40) --
+	(614.10,535.02) --
+	(616.02,534.80) --
+	(617.93,534.70) --
+	(619.84,534.68) --
+	(621.75,534.84) --
+	(623.67,535.07) --
+	(625.58,535.42) --
+	(627.49,535.89) --
+	(629.41,536.42) --
+	(631.32,537.11) --
+	(633.23,537.87) --
+	(635.14,538.71) --
+	(637.06,539.68) --
+	(638.97,540.69) --
+	(640.88,541.83) --
+	(642.79,543.03) --
+	(644.71,544.30) --
+	(646.62,545.68) --
+	(648.53,547.11) --
+	(650.44,548.63) --
+	(652.36,550.21) --
+	(654.27,551.84) --
+	(656.18,553.58) --
+	(658.09,555.34) --
+	(660.01,557.18) --
+	(661.92,559.08) --
+	(663.83,561.01) --
+	(665.74,563.02) --
+	(667.66,565.07) --
+	(669.57,567.16) --
+	(671.48,569.31) --
+	(673.39,571.48) --
+	(675.31,573.71) --
+	(677.22,575.97) --
+	(679.13,578.25) --
+	(681.05,580.58) --
+	(682.96,582.93) --
+	(684.87,585.31) --
+	(686.78,587.71) --
+	(688.70,590.13) --
+	(690.61,592.57) --
+	(692.52,595.02) --
+	(694.43,597.49) --
+	(696.35,599.96) --
+	(698.26,602.43) --
+	(700.17,604.91) --
+	(702.08,607.39) --
+	(704.00,609.87) --
+	(705.91,612.33) --
+	(707.82,614.78) --
+	(709.73,617.22) --
+	(711.65,619.64) --
+	(713.56,622.04) --
+	(715.47,624.41) --
+	(717.38,626.75) --
+	(719.30,629.06) --
+	(721.21,631.33) --
+	(723.12,633.57) --
+	(725.03,635.75) --
+	(726.95,637.88) --
+	(728.86,639.98) --
+	(730.77,641.99) --
+	(732.68,643.97) --
+	(734.60,645.87) --
+	(736.51,647.69) --
+	(738.42,649.48) --
+	(739.52,650.43);
+
+\path[draw=drawColor,line width= 4.0pt,line join=round,line cap=round] (794.95,650.43) --
+	(795.80,649.50) --
+	(797.71,647.29) --
+	(799.63,644.82) --
+	(801.54,642.25) --
+	(803.45,639.51) --
+	(805.36,636.57) --
+	(807.28,633.52) --
+	(809.19,630.25) --
+	(811.10,626.84) --
+	(813.01,623.30) --
+	(814.93,619.54) --
+	(816.84,615.68) --
+	(818.75,611.62) --
+	(820.66,607.41) --
+	(822.58,603.10) --
+	(824.49,598.56) --
+	(826.40,593.93) --
+	(828.31,589.14) --
+	(830.23,584.19) --
+	(832.14,579.15) --
+	(834.05,573.92) --
+	(835.96,568.59) --
+	(837.88,563.15) --
+	(839.79,557.54) --
+	(841.70,551.86) --
+	(843.62,546.04) --
+	(845.53,540.12) --
+	(847.44,534.12) --
+	(849.35,527.97) --
+	(851.27,521.77) --
+	(853.18,515.46) --
+	(855.09,509.07) --
+	(857.00,502.63) --
+	(858.92,496.08) --
+	(860.83,489.48) --
+	(862.74,482.82) --
+	(864.65,476.10) --
+	(866.57,469.34) --
+	(868.48,462.53) --
+	(870.39,455.68) --
+	(872.30,448.81) --
+	(874.22,441.90) --
+	(876.13,434.98) --
+	(878.04,428.04) --
+	(879.95,421.09) --
+	(881.87,414.14) --
+	(883.78,407.20) --
+	(885.69,400.26) --
+	(887.60,393.33) --
+	(889.52,386.42) --
+	(891.43,379.54) --
+	(893.34,372.69) --
+	(895.26,365.87) --
+	(897.17,359.08) --
+	(899.08,352.36) --
+	(900.99,345.66) --
+	(902.91,339.03) --
+	(904.82,332.46) --
+	(906.73,325.93) --
+	(908.64,319.50) --
+	(910.56,313.12) --
+	(912.47,306.82) --
+	(914.38,300.60) --
+	(916.29,294.43) --
+	(918.21,288.39) --
+	(920.12,282.42) --
+	(922.03,276.52) --
+	(923.94,270.75) --
+	(925.86,265.03) --
+	(927.77,259.45) --
+	(929.68,253.95) --
+	(931.59,248.53) --
+	(933.51,243.26) --
+	(935.42,238.06) --
+	(937.33,232.97) --
+	(939.24,228.01) --
+	(941.16,223.10) --
+	(943.07,218.37) --
+	(944.98,213.72) --
+	(946.90,209.16) --
+	(948.81,204.75) --
+	(950.72,200.41) --
+	(952.63,196.21) --
+	(954.55,192.12) --
+	(956.46,188.10) --
+	(958.37,184.25) --
+	(960.28,180.46) --
+	(962.20,176.81) --
+	(964.11,173.26) --
+	(966.02,169.78) --
+	(967.93,166.47) --
+	(969.85,163.22) --
+	(971.76,160.08) --
+	(973.67,157.07) --
+	(975.58,154.11) --
+	(977.50,151.30) --
+	(979.41,148.56) --
+	(981.32,145.90) --
+	(983.23,143.38) --
+	(985.15,140.91) --
+	(987.06,138.55) --
+	(988.97,136.28) --
+	(990.88,134.07) --
+	(992.80,131.99) --
+	(994.71,129.96) --
+	(996.62,128.02) --
+	(998.53,126.16) --
+	(1000.45,124.36) --
+	(1002.36,122.66) --
+	(1004.27,121.02) --
+	(1006.19,119.44) --
+	(1008.10,117.96) --
+	(1010.01,116.51) --
+	(1011.92,115.15) --
+	(1013.84,113.84) --
+	(1015.75,112.58) --
+	(1017.66,111.40) --
+	(1019.57,110.26) --
+	(1021.49,109.18) --
+	(1023.40,108.16) --
+	(1025.31,107.17) --
+	(1027.22,106.25) --
+	(1029.14,105.37) --
+	(1031.05,104.53) --
+	(1032.96,103.74) --
+	(1034.87,102.98) --
+	(1036.79,102.27) --
+	(1038.70,101.59) --
+	(1040.61,100.95) --
+	(1042.52,100.35) --
+	(1044.44, 99.77) --
+	(1046.35, 99.23) --
+	(1048.26, 98.72) --
+	(1050.17, 98.23) --
+	(1052.09, 97.79) --
+	(1054.00, 97.36) --
+	(1055.91, 96.96) --
+	(1057.83, 96.58) --
+	(1059.74, 96.22) --
+	(1061.65, 95.89) --
+	(1063.56, 95.57) --
+	(1065.48, 95.27) --
+	(1067.39, 95.00) --
+	(1069.30, 94.74) --
+	(1071.21, 94.50) --
+	(1073.13, 94.27) --
+	(1075.04, 94.05) --
+	(1076.95, 93.86) --
+	(1078.86, 93.67) --
+	(1080.78, 93.49) --
+	(1082.69, 93.33) --
+	(1084.60, 93.18) --
+	(1086.51, 93.04) --
+	(1088.43, 92.91);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (1156.32,650.43);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (237.72, 72.00) -- (1071.19, 72.00);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (237.72, 72.00) -- (237.72, 64.80);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (446.09, 72.00) -- (446.09, 64.80);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (654.46, 72.00) -- (654.46, 64.80);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (862.82, 72.00) -- (862.82, 64.80);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] (1071.19, 72.00) -- (1071.19, 64.80);
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (237.72, 46.08) {0};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (446.09, 46.08) {2};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (654.46, 46.08) {4};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (862.82, 46.08) {6};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (1071.19, 46.08) {8};
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00, 91.29) -- ( 72.00,573.54);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00, 91.29) -- ( 64.80, 91.29);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,187.74) -- ( 64.80,187.74);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,284.19) -- ( 64.80,284.19);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,380.64) -- ( 64.80,380.64);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,477.09) -- ( 64.80,477.09);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00,573.54) -- ( 64.80,573.54);
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 54.72, 91.29) {0.00};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 54.72,187.74) {0.02};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 54.72,284.19) {0.04};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 54.72,380.64) {0.06};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 54.72,477.09) {0.08};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 54.72,573.54) {0.10};
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round] ( 72.00, 72.00) --
+	(1127.52, 72.00) --
+	(1127.52,592.83) --
+	( 72.00,592.83) --
+	( 72.00, 72.00);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (1156.32,650.43);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (599.76,613.30) {\bfseries Density plot for PE};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at (599.76, 17.28) {N = 38   Bandwidth = 0.7385};
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  2.00] at ( 25.92,332.41) {Density};
+\end{scope}
+\begin{scope}
+\path[clip] ( 72.00, 72.00) rectangle (1127.52,592.83);
+\definecolor[named]{drawColor}{rgb}{0.75,0.75,0.75}
+
+\path[draw=drawColor,line width= 0.0pt,line join=round,line cap=round] ( 72.00, 91.29) -- (1127.52, 91.29);
+\end{scope}
+\end{tikzpicture}
+
+\end{document}
